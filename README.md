@@ -25,4 +25,4 @@ Conecta com o Postgres da Nuvem, armazena os dados retornados da query em uma li
 Conecta com a intancia onde o Cassandra esta instalado, armazena os dados retornados da query em uma lista, e em seguida em um DataFrame. Logo após, os dataframes são analisados para gerar pré-insights. E por fim, a tabela normalizada é salva no Cloud Storage em formato Parquet.
 
 ## WorkFlow - ETL
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![alt text](https://github.com/MarianaDuartee/ProjetoD/blob/WorkFlow-ETL/image.jpg?raw=true)
