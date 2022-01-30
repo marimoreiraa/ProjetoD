@@ -1,13 +1,13 @@
 # ProjetoD
 
 O projeto teve como objetivo:
-* Carregar os datasets em um DB Postgres Local
+* Carregar os datasets em um DB Postgres Local e em um DataLake em Nuvem
 * Utilize triggers e procedures para realizar uma pré-normalização
 * Criar um código em python que conectassee o Postgres Local a um Postgres instanciado na nuvem, para a migração das tabelas
 * Migrar as tabelas do Banco Relacional da Nuvem para os notebooks jupyter, e tratar os dados com Pandas
 * Criar uma instancia na nuvem com o Banco Não-Relacional Cassandra, e utiliza-lo como DataWarehouse
 * Migrar as tabelas normalizadas para o Cassandra
-* Utilizar Spark para ler a DB Cassandra e gerar pré-insights
+* Utilizar Spark para ler a DB Cassandra e gerar os insights iniciais 
 * Salvar as tabelas normalizadas em formato parquet e salvar no DataLake Cloud Storage da GCP
 * Utilizar o BigQuery também como DataWarehouse e para gerar as analises finais
 * Conectar o BigQuery com o DataStudio, e trazer as analises finais em um DashBoard
