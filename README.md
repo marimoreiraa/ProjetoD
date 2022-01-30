@@ -31,5 +31,5 @@ Conecta com a intancia onde o Cassandra esta instalado, armazena os dados retorn
 
 
 # Dashboards - DataStudio
-<video src='https://user-images.githubusercontent.com/82787741/151704195-6aebb0a3-63f8-4561-a177-df0efb30a6ae.mp4' width=180/>
+<video src='https://user-images.githubusercontent.com/82787741/151705209-d3b1d5b3-3f31-42a7-b307-37cc69fc03ee.mp4' width=180/>
 
