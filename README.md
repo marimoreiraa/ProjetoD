@@ -12,6 +12,9 @@ O projeto teve como objetivo:
 * Utilizar o BigQuery também como DataWarehouse e para gerar as analises finais
 * Conectar o BigQuery com o DataStudio, e trazer as analises finais em um DashBoard
 
+## WorkFlow - ETL
+> ![WorkFlow-ETL](https://user-images.githubusercontent.com/82787741/151703685-7175ad92-1811-47ef-b455-723c139408c5.jpg)
+
 ## Notebook MigraçãoLocal
 Lê as tabelas locais em formato de dataframe, conecta com o Postgres Local e insere nas tabelas, ativando o Trigger e Procedure
 
@@ -24,5 +27,4 @@ Conecta com o Postgres da Nuvem, armazena os dados retornados da query em uma li
 ## Notebook Pyspark
 Conecta com a intancia onde o Cassandra esta instalado, armazena os dados retornados da query em uma lista, e em seguida em um DataFrame. Logo após, os dataframes são analisados para gerar pré-insights. E por fim, a tabela normalizada é salva no Cloud Storage em formato Parquet.
 
-## WorkFlow - ETL
-![alt text](https://github.com/MarianaDuartee/ProjetoD/blob/WorkFlow-ETL/image.jpg?raw=true)
+
