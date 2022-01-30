@@ -2,7 +2,7 @@
 
 O projeto teve como objetivo:
 * Carregar os datasets em um DB Postgres Local
-* Utilize triggers e procedures para realizar a uma pré-normalização
+* Utilize triggers e procedures para realizar uma pré-normalização
 * Criar um código em python que conectassee o Postgres Local a um Postgres instanciado na nuvem, para a migração das tabelas
 * Migrar as tabelas do Banco Relacional da Nuvem para os notebooks jupyter, e tratar os dados com Pandas
 * Criar uma instancia na nuvem com o Banco Não-Relacional Cassandra, e utiliza-lo como DataWarehouse
